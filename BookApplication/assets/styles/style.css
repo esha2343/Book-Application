@@ -1,0 +1,67 @@
+@import url(theme.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--websiteBgColor);
+  font-family: var(--font);
+}
+
+.title {
+    border:1px solid hsl(174, 79%, 56%);
+    margin-bottom: 12px;
+    text-align: center;
+    background-color:paleturquoise
+}
+
+.inputCls {
+  width: 87%;
+}
+
+.inputContainerCls {
+  display: flex;
+  text-align: center;
+  margin: 0 40px 32px 12px;
+  font-size: var(--textMedium);
+  justify-content: space-between;
+  font-weight: 600;
+  color: var(--textColor);
+}
+
+.inputContainerCls:last-child {
+  margin-bottom: 0;
+}
+
+.saveBtn {
+  margin: 48px 0;
+  margin-left: 45%;
+  width: 6%;
+  font-size: var(--fontSizeSmall);
+  background-color: var(--btnBgColor);
+  color: var(--bntTextColor);
+  border-radius: 4px;
+}
+
+.saveBtn:hover {
+  background-color: var(--bntHoverColor);
+}
+
+.tableCls {
+  width: 100%;
+  justify-content: center;
+}
+
+.tableContainer td,
+.tableContainer tr {
+  border: 1px solid var(--tableBorderColor);
+  padding: 8px;
+  text-align: center;
+  font-size: var(--fontSizeXSmall);
+}
+
+.tableContainer th {
+  padding: 12px 0;
+  background-color: var(--tableBgColor);
+  color: var(--tableTextColor);
+  text-align: center;
+}

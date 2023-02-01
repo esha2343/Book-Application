@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    /*Font Details*/
+    --fontSizeXSmall: 16px;
+    --fontSizeSmall: 20px;
+    --fontSizeMedium: 38px;
+    --font: 'Lato', sans-serif;
+    --textColor: #8199c0;
+
+    /*Colors*/
+    --websiteBgColor: #ffffff;
+    --headerBgColor: #ffffff;
+    --btnBgColor: #3b71ca;;
+    --bntTextColor: #white;;
+    --bntHoverColor:hsl(112, 64%, 68%) ;
+    --tableBgColor:  background-color: hsl(185, 95%, 34%);;
+    --tableTextColor:  white;
+    --tableBorderColor:hsl(0, 77%, 76%);
+}
+
+
